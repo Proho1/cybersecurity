@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+a:link {
+    color: cyan;
+}
+
+a:visited {
+    color:bisque;
+}
+a:hover
+{
+    color:lightsalmon;
+}
+a:active
+{
+    color:lightgreen
+}
+header
+{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li
+{
+    display:inline-block; 
+}
+
+.main-nav li a
+{
+   color:bisque;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-family: "Roboto", sans-serif;
+   font-size: 20px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid bisque;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid bisque;
+}
+
+body
+{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(securitate.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.row
+{
+    
+    margin: auto;
+}
+
+.hero
+{
+    position:absolute;
+    width: 1000px;
+    margin-left: 5px;
+    margin-top: 0;
+
+}
+.boldandcolored
+{
+    color: orange;
+    font-weight: bold;
+}
+h1
+{
+    color: bisque;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top:270px;
+}
+.paragraf
+{
+    color: bisque;
+    margin: auto;
+    font-size:1vw;    
+    text-align: center;
+    margin-top:90px;
+    margin-bottom: 90px;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+
+{
+    border: 1px solid bisque;
+    padding: 10px 30px;
+    color: bisque;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+}
+
